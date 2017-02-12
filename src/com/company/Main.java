@@ -16,6 +16,6 @@ public class Main {
         else{
             System.out.println("That's not the right thing!");
         }
-
+        System.out.println("This is confusing, but awesome!";
    }
 }
