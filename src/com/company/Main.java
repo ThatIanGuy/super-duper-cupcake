@@ -14,8 +14,13 @@ public class Main {
             System.out.println("Hello, world!");
         }
         else{
-            System.out.println("That's not the right thing!");
+            System.out.println("That's not the right number!");
         }
-        System.out.println("This is confusing, but awesome!");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("This is confusing, and yet awesome!");
    }
 }
